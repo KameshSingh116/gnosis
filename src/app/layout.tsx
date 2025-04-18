@@ -6,8 +6,8 @@ import { Navbar } from '@/components/Navbar'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Gnosis - Empowering Education and Resolving Social Grievances with AI',
-  description: 'Join our vibrant community where learning meets social impact. Discover AI-powered tools that make education fun and help resolve grievances effectively.',
+  title: 'Gnosis - Education for Fun with AI',
+  description: 'Join our vibrant community where learning is fun and engaging. Discover AI-powered tools that make education exciting and interactive.',
 }
 
 export default function RootLayout({

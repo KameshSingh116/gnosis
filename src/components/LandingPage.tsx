@@ -135,14 +135,13 @@ export default function LandingPage() {
 
 
     const words = [
-      { text: "AEGIS " ,className:"text-blue-500 dark:text-blue-500"},
-      {text:"AI:",className:"text-blue-500 dark:text-blue-500"},
-      { text: "Your" },
-      { text: "Smart" },
-      { text: "Guardian" },
-      { text: "for" },
-      { text: "Every" },
-      { text: "Step" }
+      { text: "GNOSIS", className: "text-blue-500 dark:text-blue-500" },
+      { text: "AI:", className: "text-blue-500 dark:text-blue-500" },
+      { text: "Making" },
+      { text: "Learning" },
+      { text: "Fun" },
+      { text: "and" },
+      { text: "Interactive" }
     ];
   return (
     
@@ -182,7 +181,7 @@ export default function LandingPage() {
       <main className="flex-1 text-gray-700">
       <div className="flex flex-col items-center justify-center h-[40rem] ">
       <p className="text-neutral-600 dark:text-neutral-200 text-2xl mb-10">
-      AI AllTogether for a Safer Tomorrow
+        AI-Powered Learning for a Brighter Future
       </p>
       <TypewriterEffect words={words} />
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4 mt-10">
@@ -269,7 +268,7 @@ export default function LandingPage() {
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
               <div>
-                <h3 className="text-2xl font-bold mb-4 text-center">Before vs Now Women security  </h3>
+                <h3 className="text-2xl font-bold mb-4 text-center">Learning Progress Over Time</h3>
                 <ResponsiveContainer width="100%" height={300}>
                   <LineChart data={patientMetricsData}>
                     <CartesianGrid strokeDasharray="3 3" />
@@ -277,9 +276,8 @@ export default function LandingPage() {
                     <YAxis />
                     <Tooltip />
                     <Legend />
-                    <Line type="monotone" dataKey="After" stroke="#8884d8" name="Heart Rate" />
-                    <Line type="monotone" dataKey="Before" stroke="#82ca9d" name="Breathing Rate" />
-
+                    <Line type="monotone" dataKey="After" stroke="#8884d8" name="Current Progress" />
+                    <Line type="monotone" dataKey="Before" stroke="#82ca9d" name="Previous Progress" />
                   </LineChart>
                 </ResponsiveContainer>
               </div>
@@ -312,27 +310,21 @@ export default function LandingPage() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="w-full max-w-3xl mx-auto">
               <AccordionItem value="item-1">
-                <AccordionTrigger>What is Aegis AI, and how does it help improve personal safety?</AccordionTrigger>
+                <AccordionTrigger>What is Gnosis AI, and how does it make learning fun?</AccordionTrigger>
                 <AccordionContent>
-                Aegis AI uses AI-driven technology to analyze risks, send out emergency alerts, and connect you with trusted contacts or nearby users for quick assistance.
+                  Gnosis AI uses AI-driven technology to create interactive and engaging learning experiences, making education more enjoyable and effective.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-2">
-                <AccordionTrigger>How does the SOS alert system work?</AccordionTrigger>
+                <AccordionTrigger>How does the interactive learning system work?</AccordionTrigger>
                 <AccordionContent>
-                When the SOS button is triggered, the app sends your real-time location, along with an alert message, to your trusted contacts and any Aegis AI users in the vicinity. 
+                  Our system uses AI to create personalized learning paths, interactive quizzes, and engaging content that adapts to your learning style and pace.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-3">
-                <AccordionTrigger>How does Aegis AI detect and notify users about potential risks?</AccordionTrigger>
+                <AccordionTrigger>How does Gnosis AI personalize the learning experience?</AccordionTrigger>
                 <AccordionContent>
-                Aegis AI uses AI-powered algorithms and real-time data to assess the user's environment, identifying potential threats such as entering high-risk areas, nearby criminal activities, or other safety hazards.
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="item-4">
-                <AccordionTrigger>Can I use Aegis AI even if I don’t have access to the internet?</AccordionTrigger>
-                <AccordionContent>
-                Yes, Aegis AI is designed to offer limited functionality even in offline mode. 
+                  Gnosis AI analyzes your learning patterns and preferences to provide customized content, interactive exercises, and real-time feedback to enhance your learning journey.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

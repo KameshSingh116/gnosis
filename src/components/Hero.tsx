@@ -3,7 +3,7 @@ export function Hero() {
     <section className="bg-[#f8faff] py-20">
       <div className="container mx-auto px-4 text-center">
         <h1 className="text-4xl md:text-6xl font-bold mb-8 text-gray-900">
-          Empowering Education and Resolving Social Grievances with AI
+          Making Education Fun and Engaging with AI
         </h1>
         <div className="flex justify-center space-x-4">
           <button className="bg-[#1a73e8] text-white px-8 py-3 rounded-md hover:bg-[#1557b0] font-medium">
