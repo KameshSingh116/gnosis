@@ -1,14 +1,13 @@
+import type { Metadata } from 'next'
 import './globals.css'
 import { Inter } from 'next/font/google'
-// import { Navbar } from '@/components/Navbar (1)'
-import { Footer } from '@/components/Footer'
-import LearningChart from '@/components/LearningChart'
+import { Navbar } from '@/components/Navbar'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
-  title: 'GiftedBooks AI Learning Platform',
-  description: 'AI-based learning, poverty assistance, and social grievance registration',
+export const metadata: Metadata = {
+  title: 'Gnosis - Empowering Education and Resolving Social Grievances with AI',
+  description: 'Join our vibrant community where learning meets social impact. Discover AI-powered tools that make education fun and help resolve grievances effectively.',
 }
 
 export default function RootLayout({
@@ -17,11 +16,12 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="h-full">
-      <body className={`${inter.className} flex flex-col min-h-screen`}>
-        {/* <Navbar /> */}
-        <main className="flex-grow">{children}</main>
-        <LearningChart />
+    <html lang="en">
+      <body className={inter.className}>
+        <Navbar />
+        <div className="pt-16">
+          {children}
+        </div>
       </body>
     </html>
   )
