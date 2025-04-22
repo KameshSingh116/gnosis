@@ -101,7 +101,9 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For queries, feedback, or support, reach out at: [[your-email@example.com](abhinavkashyapm10@example.com)]
+For queries, feedback, or support, reach out at: 
+kameshsinghprof26@gmail.com
+abhinavkashyapm10@example.com
 
 abhinavkashyaplm10\@gmail.com
 
