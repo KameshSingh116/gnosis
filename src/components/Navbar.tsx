@@ -10,10 +10,7 @@ const navItems = [
   { name: 'Dashboard', href: '/dashboard' },
   { name: 'Grievance', href: '/grievance' },
   { name: 'Marketplace', href: '/marketplace' },
-  { name: 'Vision Lab', href: '/visionlab' },
   { name: 'AI Teacher', href: '/aiteacher' },
-  { name: 'Safe Routes', href: '/saferoutes' },
-  { name: 'Crime Report', href: '/crimereport' },
 ]
 
 export function Navbar() {

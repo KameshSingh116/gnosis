@@ -79,7 +79,7 @@ Education Simplified is an innovative web platform designed to make learning mor
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repository/education-simplified.git
+   git clone https://github.com/KameshSingh116/gnosis.git
    ```
 2. Install dependencies:
    ```sh
@@ -91,6 +91,7 @@ Education Simplified is an innovative web platform designed to make learning mor
    ```
 4. Open your browser and navigate to `http://localhost:3000`
 
+# You can also go with npm run dev
 ## Contribution
 
 We welcome contributions! Feel free to fork the repo and submit a pull request.
