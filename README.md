@@ -13,7 +13,7 @@ Team Member - Kamesh Singh (Kammo)
 
 Education Simplified is an innovative web platform designed to make learning more accessible, interactive, and engaging. By integrating Virtual Reality (VR) and Artificial Intelligence (AI), the platform provides a revolutionary approach to education with immersive classrooms, AI-powered assistants, and smart learning tools.
 
-## Key Features
+# Some features especially the classroom might cause you problem so try with updated API keys
 
 ### **1. VR-Supported 3D Classroom**
 
@@ -109,3 +109,8 @@ abhinavkashyapm10@example.com
 abhinavkashyaplm10\@gmail.com
 
 
+With this i would like to end building of our project.
+I and my team have done the project from the same laptop as my frind's laptop was gone (damaged).
+
+# And ofcourse we also used AI to complete the project but not much.
+#Radhe Radhe
