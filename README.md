@@ -2,6 +2,9 @@
 The repo was made after almost the entire project was complete due to which to commit, i had to delete files and copy paste the as or else the the entire project will be commited at once
 ## I am writing this based on experience from one of hackathons i attended where due to this issue we got disqualified.
 Kindly look into the matter.
+
+# Also we thought of adding womensafety features also which we added but later removed to keep it completely for classroom eductaion and not other bases.
+
 # Radhe Radhe
 Project Name- Gnosis
 
