@@ -1,7 +1,12 @@
+# Note for evaluators!
+The repo was made after almost the entire project was complete due to which to commit, i had to delete files and copy paste the as or else the the entire project will be commited at once
+## I am writing this based on experience from one of hackathons i attended where due to this issue we got disqualified.
+Kindly look into the matter.
 # Radhe Radhe
-Project Name- 
+Project Name- Gnosis
 
-Team Leader - Kamesh Singh (Kammo)
+Team Leader -  Ritish Sharma
+Team Member - Kamesh Singh (Kammo)
 # Education Simplified - VR & AI-Powered Learning Platform
 
 ## Overview
@@ -96,7 +101,9 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For queries, feedback, or support, reach out at: [[your-email@example.com](abhinavkashyapm10@example.com)]
+For queries, feedback, or support, reach out at: 
+kameshsinghprof26@gmail.com
+abhinavkashyapm10@example.com
 
 abhinavkashyaplm10\@gmail.com
 
